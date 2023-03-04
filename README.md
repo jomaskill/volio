@@ -7,14 +7,19 @@ The tech stack for this project is
 * TailwindCss
 * Mailpit
 
+There's a demo video as well, check it out:
+<br>
+https://www.loom.com/share/9369855417fa4c88a6191c40a66b2a35
 ## Setup
- * Clone the repo
- * Install dependecies
-    ```
-    cp .env.example .env
-    composer install
-    npm install
-    ```
+ Clone the repository
+ Install dependecies
+<br>
+
+```
+cp .env.example .env
+composer install
+npm install
+```
 
 I have setup services for mysql, and mailpit, you just have to build the containers
    ```
