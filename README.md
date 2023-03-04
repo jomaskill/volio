@@ -1,7 +1,7 @@
 # About
 This is a small sample project, to create a person and send emails.
 <br>
-The tack stack for this project is
+The tech stack for this project is
 * Laravel
 * Mysql
 * TailwindCss
