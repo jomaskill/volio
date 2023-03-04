@@ -3,7 +3,6 @@
 namespace App\Mail;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
@@ -31,7 +30,7 @@ class NewPerson extends Mailable
             markdown: 'emails.person.new',
             with: [
                 'content' => $this->content,
-                'name'    => $this->name,
+                'name' => $this->name,
             ]
         );
     }

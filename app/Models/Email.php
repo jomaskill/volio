@@ -19,7 +19,7 @@ class Email extends Model
 
     protected function body(): Attribute
     {
-        return Attribute::get( fn (string $value) => Str::limit($value, 20));
+        return Attribute::get(fn (string $value) => Str::limit($value, 20));
     }
 
     public function person(): HasOne

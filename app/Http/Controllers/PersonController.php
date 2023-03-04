@@ -7,6 +7,7 @@ use App\Mail\NewPerson;
 use App\Models\Email;
 use App\Models\Person;
 use Illuminate\Contracts\View\View;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Mail;
 
 class PersonController extends Controller
@@ -23,7 +24,7 @@ class PersonController extends Controller
         return view('pages.person.create');
     }
 
-    public function store(StorePersonRequest $request)
+    public function store(StorePersonRequest $request): RedirectResponse
     {
         Person::create($request->validated());
 

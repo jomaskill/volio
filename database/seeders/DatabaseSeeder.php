@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\Email;
-use App\Models\Person;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder

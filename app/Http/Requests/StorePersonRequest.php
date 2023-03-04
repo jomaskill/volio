@@ -10,7 +10,7 @@ class StorePersonRequest extends FormRequest
     {
         return [
             'name' => ['required', 'max:255'],
-            'phone' => ['required', 'max:15'],
+            'phone' => ['required', 'max:17'],
             'email' => ['required', 'email', 'unique:people,email'],
             'body' => ['required'],
         ];
