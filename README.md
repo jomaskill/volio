@@ -26,6 +26,14 @@ Now we wil start the Php server, along with node
    php artisan serve
    npm run dev
    ```
+
+To build the database
+
+
+   ```
+   php artisan migrate
+   ```
+
 To see the application go to
 
 ``
