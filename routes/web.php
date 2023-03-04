@@ -19,3 +19,5 @@ Route::get('/', function () {
     return redirect('person');
 });
 
+Route::resource('person', PersonController::class)->only('index', 'create', 'store');
+Route::resource('email', EmailController::class)->only('index');
